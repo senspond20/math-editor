@@ -3,7 +3,8 @@ import "prosemirror-view/style/prosemirror.css";
 import "katex/dist/katex.min.css";
 import "prosemirror-gapcursor/style/gapcursor.css";
 import './style.css'
-import MyEditor from "./editor/math/MathEditor.tsx";
+import MyEditor from "./editor/editor/MathEditor.tsx";
+
 function App() {
   return <MyEditor/>
 }
